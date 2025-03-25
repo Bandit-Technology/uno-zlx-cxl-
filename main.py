@@ -7,7 +7,7 @@ from big_package.wins import win_login, win_ready
 
 if __name__ == '__main__':
     # pyinstaller封装命令
-    # pyinstaller --add-data 'UNO_Assets/Avatars;UNO_Assets/Avatars' .\main.py
+    # pyinstaller --add-data 'UNO_Assets;UNO_Assets' main.py
     # 启动登录页
     win_login_ = win_login.login_win()
     win_login_.run()
